@@ -1,6 +1,6 @@
 import Shape from './Shape';
 
-class Circle extends Shape
+class circle extends Shape
 {
   calculateArea()
   {
@@ -13,4 +13,4 @@ class Circle extends Shape
         )
      }
       }
-export default Circle;
+export default circle;
