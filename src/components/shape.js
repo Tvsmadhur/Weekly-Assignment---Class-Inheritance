@@ -1,3 +1,24 @@
-// declare class
-
-// export class using module.exports
+import React,{Component} from 'react';
+class Shape extends React.component
+{
+  constructor(props)
+  {
+    super(props);
+    this.state={color:red};
+  }
+  drawShape()
+  {
+    return "Shape";
+  }
+  calculateArea()
+  {
+    return "Area";
+  }
+  render()
+  {
+    return(
+      <div>Area:{calculateArea()} shape:{drawShape()}</div>
+      )
+  }
+ }
+ export default Shape;
