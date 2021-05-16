@@ -1,6 +1,6 @@
 import React,{Components} from 'react';
 import Shape from'./Shape';
-import Circle from './Circle';
+import circle from './circle';
 
 class  App extends React.Components
 {
@@ -9,7 +9,7 @@ class  App extends React.Components
     return 
     (
       {
-        <Circle/>
+        <circle/>
         <Shape/>
       }
      )
