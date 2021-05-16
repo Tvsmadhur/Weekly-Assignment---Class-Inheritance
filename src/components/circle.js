@@ -1,16 +1,22 @@
-import Shape from './Shape';
+import Shape from "./shape";
 
-class circle extends Shape
-{
-  calculateArea()
-  {
-    return "james";
+
+ 
+
+class Circle extends Shape {
+
+  constructor(props) {
+
+    super(props);
+
+}
+
+  render() {
+
+    return <div>{this.calculateArea()}</div>;
+
   }
-  render()
-  {
-    return(
-      <div>{calculateArea()}</div>
-        )
-     }
-      }
-export default circle;
+
+}
+
+export default Circle;
