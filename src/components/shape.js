@@ -1,24 +1,42 @@
-import React,{Component} from 'react';
-class Shape extends React.Component
-{
-  constructor(props)
-  {
+
+
+import React, { Component } from "react";
+
+class Shape extends React.Component {
+
+  constructor(props) {
+
     super(props);
-    this.state={color:red};
+
+    this.state = { color: "red" };
+
   }
-  drawShape()
-  {
+
+  drawShape() {
+
     return "Shape";
+
   }
-  calculateArea()
-  {
+
+  calculateArea() {
+
     return "Area";
+
   }
-  render()
-  {
-    return(
-      <div>Area:{calculateArea()} shape:{drawShape()}</div>
-      )
+
+  render() {
+
+    return (
+
+      <div>
+
+        Area:{this.calculateArea()} shape:{this.drawShape()}
+
+      </div>
+
+    );
+
   }
- }
+
+}
  export default Shape;
