@@ -1,9 +1,13 @@
-import React,{Components} from 'react';
+import React,{Component} from 'react';
 import Shape from'./Shape';
 import circle from './circle';
 
-class  App extends React.Components
+class  App extends React.Component
 {
+  constructor(props)
+  {
+    super(props)
+  }
   render()
   {
     return 
