@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-class Shape extends React.component
+class Shape extends React.Component
 {
   constructor(props)
   {
