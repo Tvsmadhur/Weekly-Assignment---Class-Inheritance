@@ -1,6 +1,15 @@
-// import using require
+import Shape from 'Shape.js';
 
-// declare class
-
-
-// export class using module.exports
+class circle extends Shape
+{
+  calculateArea()
+  {
+    return "james";
+  }
+  render()
+  {
+    return(
+      <div>{calculateArea()}</div>
+        )
+     }
+      }
